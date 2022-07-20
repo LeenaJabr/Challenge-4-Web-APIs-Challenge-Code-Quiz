@@ -1,7 +1,6 @@
 # Coding-Quiz
 
-
-https://user-images.githubusercontent.com/107494937/180063698-1d0e9f19-feba-470e-be37-ae104955ad5d.mp4
+![Demo for Quiz](https://user-images.githubusercontent.com/107494937/180069214-6656081d-a489-47a4-a827-4d3614ef61e4.gif)
 
 
 ## See it in action!
