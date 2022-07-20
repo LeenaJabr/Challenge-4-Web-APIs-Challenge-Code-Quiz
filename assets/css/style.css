@@ -1,0 +1,187 @@
+:root {
+    --powder-pink: #f0d6f3;
+    --powder-purple: #cac3fc;
+    --ocean-blue: #3590f3;
+    --powder-yellow: #e8f07d;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: flex-start;
+    background-image: url(../img/SM3.jpg);
+}
+/* The header including the timer and the high score link */
+header {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../img/SM3.jpg);
+    background-color: var(--powder-yellow);
+
+}
+.high-score {
+    color: var(--ocean-blue);
+    padding: 20px;
+}
+
+.linktohighscores{
+    background-color: var(--powder-yellow);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.timer {
+    color: var(--ocean-blue);
+    padding: 20px;
+    margin-left: 50%;
+    display: none;
+    
+}
+
+.linktohighscores{
+    color: var(--ocean-blue);
+}
+/* Start Quiz Prompts */
+main {
+    padding: 15%;
+    text-align: center;
+    background-image: url(../img/SM2.jpg);
+    color:var(--ocean-blue);
+    
+}
+
+.code-quiz {
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.start-button {
+    background: var(--powder-yellow); 
+    border-radius: 8px;
+    color: rgb(19, 130, 226);
+    cursor: pointer;
+    font-size: 2em;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 52px;
+     margin-top: 0.6em;
+}
+/* Questions */
+.questionCard {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+    padding: 5%;
+}
+
+.buttonEl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+
+}
+
+.alternatives {
+    background-color: var(--powder-purple);
+    border-radius: 8px;
+    width: 50%;
+    align-self: center;
+    cursor: pointer;
+    font-size: 1.5em;
+    letter-spacing: 0.21px;
+    padding: 10px;
+}
+
+#feedback {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+#feedback-text{
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--powder-purple);
+    font-style: italic;
+}
+
+/* End of Form CSS */
+.end {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.finalScore {
+    font-size: 3em;
+    text-align: center;
+    padding: 5%;
+}
+
+.end-form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 5%;
+    text-align: center;
+    background-image: url(../img/SM4.png);
+    color:var(--ocean-blue);
+}
+
+#username {
+    margin: 5px;
+    width: 70%;
+    align-self: center;
+    text-align: center;
+}
+
+.submit-btn{
+    background-color: var(--powder-yellow);
+    border-radius: 8px;
+    width: 40%;
+    align-self: center;
+    cursor: pointer;
+    font-size: 1.0em;
+    letter-spacing: 0.21px;
+    padding: 5px;
+}
+/* High Scores */
+#highScores {
+    flex-direction: column;
+    text-align: center;
+    display: none;
+    padding: 20%;
+
+}
+
+#highScoreTitle {
+    align-self: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.play-again-btn{
+    background-color: var(--powder-yellow);
+    border-radius: 8px;
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.0em;
+    letter-spacing: 0.21px;
+    padding: 5px;
+    margin-bottom: 20px;
+}

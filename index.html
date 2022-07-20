@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title> JS Quiz </title>
+    </head>
+    <body>
+      <header id="header">
+        <section class="high-score">
+          <button class="linktohighscores"> View high Scores</button>
+        </section>
+        <section class="timer">
+          <h5 class="timer"></h3>
+        </section>
+      </header>
+
+      <main>
+        <section class="main code-quiz">Code Quiz Challenge</section>
+        <h4 class="main instructions"> Click Start Quiz to begin!</h4>
+        <button class="main start-button"> Start Quiz </button>
+      </main>  
+      
+      <section class="questionCard">
+        <h2 class="title"></h2>
+        <div class="buttonEl">
+          <button class="alternatives" id="a" ></button>
+          <button class="alternatives" id="b" ></button>
+          <button class="alternatives" id="c" ></button>
+          <button class="alternatives" id="d" ></button>
+        </div>
+        <div id="feedback">
+          <p id="feedback-text"></p>
+        </div>
+      </section>
+
+      <section class="end">
+        <h1 class="finalScore"></h1>
+        <form class="end-form">
+          <h2 class="end-instructions">Enter your name below to save your score!</h2>
+          <input type="text" name="name" id="username" placeholder="Enter your name">
+          <button class="submit-btn">Save</button>
+        </form>
+      </section>
+
+      <section id="highScores">
+        <h2 id="highScoreTitle"> High Scores </h2>
+        <ul id="userHighScores"></ul>
+        </ul>
+        <button class="play-again-btn"> Play Again </button>
+      </section>
+  
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
