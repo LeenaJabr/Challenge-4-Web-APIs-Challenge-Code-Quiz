@@ -97,7 +97,7 @@ main {
 }
 
 .alternatives {
-    background-color: var(--powder-purple);
+    background-color: var(--ocean-blue);
     border-radius: 8px;
     width: 50%;
     align-self: center;
@@ -110,12 +110,13 @@ main {
 #feedback {
     align-self: center;
     margin-bottom: 20px;
+    color: #3590f3;
 }
 
 #feedback-text{
     text-align: center;
     font-size: 1.5em;
-    color: var(--powder-purple);
+    color: var(--ocean-blue);
     font-style: italic;
 }
 
@@ -147,6 +148,7 @@ main {
     width: 70%;
     align-self: center;
     text-align: center;
+    color: #3590f3;
 }
 
 .submit-btn{
@@ -165,6 +167,7 @@ main {
     text-align: center;
     display: none;
     padding: 20%;
+    color: #3590f3;
 
 }
 
@@ -172,6 +175,7 @@ main {
     align-self: center;
     font-size: 2em;
     margin-bottom: 15px;
+    color: #3590f3;
 }
 
 .play-again-btn{
